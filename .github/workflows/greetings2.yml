@@ -2,7 +2,7 @@ name: Greetings2
 
 on:
   repository_dispatch:
-    types: [Greetings]
+    types: [greeting]
 
 jobs:
   greeting2:
