@@ -12,3 +12,4 @@ jobs:
         issue-message: 'Message that will be displayed on users'' first issue'
         pr-message: 'Message that will be displayed on users'' first pr'
         event-type: greeting 
+        client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
